@@ -1,0 +1,125 @@
+
+  *{
+    box-sizing: border-box;
+  }
+ 
+  
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  .header {
+  
+    background: #364552;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+   
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  
+  }
+  
+  .header .img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .targets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 20px;
+  }
+  
+  .target {
+
+    background: #faebd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #2e91bc7f;
+    padding: 20px;
+    margin: 10px 0px;
+    width: 30%;
+    min-width: 250px;
+  }
+
+  .target:hover{
+
+    box-shadow: 1px 1px 5px 1px rgb(66, 164, 199);
+
+  }
+
+  .three {
+
+  
+    margin: 20px auto;
+    display:3flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+  }
+  
+  .target button {
+    background: transparent;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  .target button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+  }
+  
+  .target img {
+    width: 150px;
+    height: 150px;
+  
+  }
+  
+
+.footer {
+
+    background-color: #222;
+    padding: 50px;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+   
+}
+
+.footer .section {
+   display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(100, 196, 237);
+}
+    
