@@ -1,0 +1,37 @@
+
+<div container>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<div class="body">
+    <div id="">
+        <h1 id="h1"></h1>
+        
+        <div *ngIf="showForm" id="form">
+            <h1 id="form-titulo">REGISTRO</h1>
+            <input [(ngModel)]="name" class="field" type="text" placeholder="Tutor">
+            <input [(ngModel)]="email" class="field" type="number" placeholder="N de tutor">
+            <input [(ngModel)]="pw1" class="field" type="text" placeholder="Abuelito">
+            <input [(ngModel)]="pw2" class="field" type="text" placeholder="Tipo de sangre">
+            <input [(ngModel)]="nss" class="field" type="number" placeholder="NSS">
+            <input [(ngModel)]="direccion" class="field" type="text" placeholder="Dirección">
+            <input (click)="onSubmit()" class="submit" type="button" value="REGISTRAR">
+          </div>
+          
+          <div *ngIf="!showForm" id="wlcm" [innerHTML]="welcomeMessage"></div>
+          
+
+    </div>
+  
+    <script>
+        $(document).ready(function () {
+            $("#submit").on("click", function () {
+                $("#form").fadeOut();
+                $("#wlcm").html("Hello " + $("#name").val() + "<br> Thanks for signing up!");
+            });
+        });
+    </script>
+</div>
+</div>

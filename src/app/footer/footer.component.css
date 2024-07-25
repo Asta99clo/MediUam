@@ -1,0 +1,36 @@
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+.footer {
+
+    position: absolute;
+    background-color: #222;
+    padding: 50px;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+   
+}
+
+.footer .section {
+   display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(100, 196, 237);
+}
+    

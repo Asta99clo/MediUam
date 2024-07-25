@@ -5,6 +5,9 @@
  
   
   .container {
+
+    background-color: #faf3e7;
+    position:absolute;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -80,6 +83,7 @@
     padding: 5px;
     margin-bottom: 10px;
     border: none;
+    font-weight: bolder;
   }
   
   .target a {
@@ -95,32 +99,3 @@
   
   }
   
-
-.footer {
-
-    background-color: #222;
-    padding: 50px;
-    color: #fff;
-    width: 100%;
-    max-width: 1200px;
-   
-}
-
-.footer .section {
-   display: flex;
-    justify-content: space-between;
-}
-
-.footer p {
-    margin: 0;
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    color: rgb(100, 196, 237);
-}
-    
