@@ -75,17 +75,18 @@
     
   }
   
-  .target button {
+  .target p {
     background: transparent;
     padding: 5px;
     margin-bottom: 10px;
     border: none;
   }
   
-  .target button a {
+  .target a {
     text-decoration: none;
     color: #000;
     font-size: 2rem;
+    text-align: center;
   }
   
   .target img {
